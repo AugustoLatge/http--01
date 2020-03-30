@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
-    "react": "^16.0.0",
+    "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "1.0.13"
   },
@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "freshtall": "rmdir /s /q node_modules && del package-lock.json && npm install"
   }
 }
